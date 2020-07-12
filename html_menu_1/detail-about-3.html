@@ -41,7 +41,7 @@
 	</div>
 	<!-- End Preload -->
     
-	<header class="header_sticky">
+	<header class="static">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3 col-6">
@@ -132,99 +132,98 @@
 		</div>
 		<!-- container -->
 	</header>
-	<!-- /Header -->
+	<!-- /Header -->	
 	
 	<main>
-		<div id="map_contact"></div>
-		<!-- /map -->
-		
-		<div class="container margin_60_35">
+		<div id="breadcrumb">
+			<div class="container">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Category</a></li>
+					<li>Page active</li>
+				</ul>
+			</div>
+		</div>
+		<!-- /breadcrumb -->
+
+		<div class="container margin_60">
 			<div class="row">
-				<aside class="col-lg-3 col-md-4">
-					<div id="contact_info">
-						<h3>Contacts info</h3>
-						<p>
-							11 Fifth Ave - New York, US<br> + 61 (2) 8093 3400<br>
-							<a href="#">info@domain.com</a>
-						</p>
-						<h4>Get directions</h4>
-						<form action="http://maps.google.com/maps" method="get" target="_blank">
-							<div class="form-group">
-								<input type="text" name="saddr" placeholder="Enter your location" class="form-control styled">
-								<input type="hidden" name="daddr" value="New York, NY 11430">
-								<!-- Write here your end point -->
-							</div>
-							<input type="submit" value="Get directions" class="btn_1 add_bottom_45">
-						</form>
-						<ul>
-							<li><strong>Administration</strong>
-								<a href="tel://003823932342">0038 23932342</a><br><a href="tel://003823932342">admin@findoctor.com</a><br>
-								<small>Monday to Friday 9am - 7pm</small>
-							</li>
-							<li><strong>General questions</strong>
-								<a href="tel://003823932342">0038 23932342</a><br><a href="tel://003823932342">questions@findoctor.com</a><br>
-								<p><small>Monday to Friday 9am - 7pm</small></p>
-							</li>
-						</ul>
-					</div>
-				</aside>
-				<!--/aside -->
-				<div class=" col-lg-8 col-md-8 ml-auto">
-					<div class="box_general">
-						<h3>Contact us</h3>
-						<p>
-							Mussum ipsum cacilds, vidis litro abertis.
-						</p>
-						<div>
-							<div id="message-contact"></div>
-							<form method="post" action="assets/contact.php" id="contactform">
-								<div class="row">
-									<div class="col-md-6 col-sm-6">
-										<div class="form-group">
-											<input type="text" class="form-control" id="name_contact" name="name_contact" placeholder="Name">
-										</div>
-									</div>
-									<div class="col-md-6 col-sm-6">
-										<div class="form-group">
-											<input type="text" class="form-control" id="lastname_contact" name="lastname_contact" placeholder="Last name">
-										</div>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-md-6 col-sm-6">
-										<div class="form-group">
-											<input type="email" id="email_contact" name="email_contact" class="form-control" placeholder="Email">
-										</div>
-									</div>
-									<div class="col-md-6 col-sm-6">
-										<div class="form-group">
-											<input type="text" id="phone_contact" name="phone_contact" class="form-control" placeholder="Phone number">
-										</div>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-md-12">
-										<div class="form-group">
-											<textarea rows="5" id="message_contact" name="message_contact" class="form-control" style="height:100px;" placeholder="Hello world!"></textarea>
-										</div>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-md-6">
-										<div class="form-group">
-											<input type="text" id="verify_contact" class=" form-control" placeholder=" 3 + 1 =">
-										</div>
-									</div>
-								</div>
-								<input type="submit" value="Submit" class="btn_1 add_top_20" id="submit-contact">
-							</form>
+				<div class="col-xl-8 col-lg-8">
+					<nav id="secondary_nav">
+						<div class="container">
+							<ul class="clearfix">
+								<li><a href="#section_1" class="active">General info</a></li>
+								<li><a href="#section_2">Reviews</a></li>
+								<li><a href="#sidebar">Booking</a></li>
+							</ul>
 						</div>
-						<!-- /col -->
+					</nav>
+					<div id="section_1">
+						<div class="box_general_3">
+							<div class="profile">
+								<div class="row">
+									<div class="col-lg-5 col-md-4">
+										<figure>
+											<img src="http://via.placeholder.com/565x565.jpg" alt="" class="img-fluid">
+										</figure>
+									</div>
+									<div class="col-lg-7 col-md-8">
+										<small>Estudiante de Ing en Computacion</small>
+										<h1>Galo Ortega</h1>
+										<span class="rating">
+											<i class="icon_star voted"></i>
+											<i class="icon_star voted"></i>
+											<i class="icon_star voted"></i>
+											<i class="icon_star voted"></i>
+											<i class="icon_star"></i>
+											<small>(145)</small>
+											<a href="badges.html" data-toggle="tooltip" data-placement="top" data-original-title="Badge Level" class="badge_list_1"><img src="img/badges/badge_1.svg" width="15" height="15" alt=""></a>
+										</span>
+										
+										<ul class="contacts">
+											<li>
+												<h6>Direccion</h6>
+												Villa CLub
+												<a href="https://www.google.com/maps/dir//Assistance+%E2%80%93+H%C3%B4pitaux+De+Paris,+3+Avenue+Victoria,+75004+Paris,+Francia/@48.8606548,2.3348734,14z/data=!4m15!1m6!3m5!1s0x0:0xa6a9af76b1e2d899!2sAssistance+%E2%80%93+H%C3%B4pitaux+De+Paris!8m2!3d48.8568376!4d2.3504305!4m7!1m0!1m5!1m1!1s0x47e67031f8c20147:0xa6a9af76b1e2d899!2m2!1d2.3504327!2d48.8568361" target="_blank"> <strong>View on map</strong></a>
+											</li>
+											<li>
+												<h6>Phone</h6> <a href="tel://000434323342">+00043 4323342</a> - <a href="tel://000434323342">+00043 4323342</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+							
+
+							<div class="indent_title_in">
+								<i class="pe-7s-news-paper"></i>
+								<h3>Education</h3>
+								<p>Universitaria.</p>
+							</div>
+							<div class="wrapper_indent">
+								<p>Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Nullam mollis. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapi.</p>
+								<h6>Curriculum</h6>
+								<ul class="list_edu">
+									<li><strong>Espol</strong> - Estudiante</li>
+								</ul>
+							</div>
+							<!--  End wrapper indent -->
+
+							
+							<!--  /wrapper_indent -->
+						</div>
+						<!-- /section_1 -->
 					</div>
+					<!-- /box_general -->
+
+					
+					<!-- /section_2 -->
 				</div>
 				<!-- /col -->
+				
+				<!-- /asdide -->
 			</div>
-			<!-- End row -->
+			<!-- /row -->
 		</div>
 		<!-- /container -->
 	</main>
@@ -301,12 +300,6 @@
 	<script src="js/jquery-2.2.4.min.js"></script>
 	<script src="js/common_scripts.min.js"></script>
 	<script src="js/functions.js"></script>
-	
-	<!-- SPECIFIC SCRIPTS -->
-	<script src="assets/validate.js"></script>
-	<script src="http://maps.googleapis.com/maps/api/js"></script>
-	<script src="js/mapmarker.jquery.js"></script>
-	<script src="js/mapmarker_contacts_func.js"></script>
      
 </body>
 </html>
