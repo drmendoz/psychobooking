@@ -9,7 +9,7 @@ const loadPsicologos = () => {
             <a href="#0" class="wish_bt"></a>
             <figure>
               <a href="detail-page-2.html">
-                <img src="http://via.placeholder.com/565x565.jpg" alt="" />
+                <img src=${obj.imagen}" alt=""/>
               </a>
             </figure>
         <small>${obj.especialidad}</small>
@@ -45,7 +45,7 @@ const loadPsicologos = () => {
               </li>
               <li>
                 <a
-                  href="https://www.google.com/maps/dir//Assistance+%E2%80%93+H%C3%B4pitaux+De+Paris,+3+Avenue+Victoria,+75004+Paris,+Francia/@48.8606548,2.3348734,14z/data=!4m15!1m6!3m5!1s0x0:0xa6a9af76b1e2d899!2sAssistance+%E2%80%93+H%C3%B4pitaux+De+Paris!8m2!3d48.8568376!4d2.3504305!4m7!1m0!1m5!1m1!1s0x47e67031f8c20147:0xa6a9af76b1e2d899!2m2!1d2.3504327!2d48.8568361"
+                  href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53642.158314568944!2d-79.9372139491017!3d-2.1623513053034555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x674a1c7815b63297!2sCiap%20Centro%20Integral%20De%20Atenci%C3%B3n%20Psicol%C3%B3gica!5e0!3m2!1ses-419!2sec!4v1595607537226!5m2!1ses-419!2sec"
                   target="_blank"
                 >
                   Directions
