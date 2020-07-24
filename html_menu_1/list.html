@@ -1,328 +1,330 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Búsqueda fácil de un Psicólogo en linea y reservación de turno"
+    />
+    <meta name="author" content="David, Jhossias, Galo" />
+    <title>
+      PSYCHOBOOKING - Encuentre fácilmente un psicólogo y reserve una cita en
+      línea
+    </title>
 
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="Búsqueda fácil de un Psicólogo en linea y reservación de turno">
-	<meta name="author" content="David, Jhossias, Galo">
-	<title>PSYCHOBOOKING - Encuentre fácilmente un psicólogo y reserve una cita en línea</title>
+    <!-- Favicons-->
+    <link rel="shortcut icon" href="img/favicoon.ico" type="image/x-icon" />
+    <link
+      rel="apple-touch-icon"
+      type="image/x-icon"
+      href="img/apple-touch-icon-57x57-precomposed.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/x-icon"
+      sizes="72x72"
+      href="img/apple-touch-icon-72x72-precomposed.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/x-icon"
+      sizes="114x114"
+      href="img/apple-touch-icon-114x114-precomposed.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/x-icon"
+      sizes="144x144"
+      href="img/apple-touch-icon-144x144-precomposed.png"
+    />
 
-	<!-- Favicons-->
-	<link rel="shortcut icon" href="img/favicoon.ico" type="image/x-icon">
-	<link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
-	<link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
-	<link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
-	<link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
-    
     <!-- GOOGLE WEB FONT -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800" rel="stylesheet">
-    
-	<!-- BASE CSS -->
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
-	<link href="css/menu.css" rel="stylesheet">
-	<link href="css/vendors.css" rel="stylesheet">
-	<link href="css/icon_fonts/css/all_icons_min.css" rel="stylesheet">
-   
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800"
+      rel="stylesheet"
+    />
+
+    <!-- BASE CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/menu.css" rel="stylesheet" />
+    <link href="css/vendors.css" rel="stylesheet" />
+    <link href="css/icon_fonts/css/all_icons_min.css" rel="stylesheet" />
+
     <!-- SPECIFIC CSS -->
-    <link href="css/date_picker.css" rel="stylesheet">
-    
-	<!-- YOUR CUSTOM CSS -->
-	<link href="css/custom.css" rel="stylesheet">
+    <link href="css/date_picker.css" rel="stylesheet" />
 
-</head>
+    <!-- YOUR CUSTOM CSS -->
+    <link href="css/custom.css" rel="stylesheet" />
+    <link href="../introjs/introjs.css" rel="stylesheet" />
+  </head>
 
-<body>
+  <body>
+    <div class="layer"></div>
+    <!-- Mobile menu overlay mask -->
 
-	<div class="layer"></div>
-	<!-- Mobile menu overlay mask -->
+    <div id="preloader">
+      <div data-loader="circle-side"></div>
+    </div>
+    <!-- End Preload -->
 
-	<div id="preloader">
-		<div data-loader="circle-side"></div>
-	</div>
-	<!-- End Preload -->
-    
-	<header >
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-6">
-					<div id="logo_home">
-						<h1><a href="index.html" title="PSYCHOBOOKING">PSYCHOBOOKING</a></h1>
-					</div>
-				</div>
-				<nav class="col-lg-9 col-6">
-					<a class="cmn-toggle-switch cmn-toggle-switch__htx open_close" href="#0"><span>Menu mobile</span></a>
-					<ul id="top_access">
-						<li><a href="login.html"><i class="pe-7s-user"></i></a></li>
-						<li><a href="register.html"><i class="pe-7s-add-user"></i></a></li>
-					</ul>
-					<div class="main-menu">
-						<ul>
-							<li><a href="index.html">Principal</a></li>
-							<li><a href="blog-1.html">Noticias</a></li>
-							<li><a href="register-doctor.html">Registrar Psicólogo</a></li>
-							<li><a href="about.html">Sobre nosotros</a></li>
-							<li><a href="contacts.html">Contactenos</a></li>
-							<li><a href="faq.html">Faq page</a></li>
-							
-						</ul>
-					</div>
-					<!-- /main-menu -->
-				</nav>
-			</div>
-		</div>
-		<!-- /container -->
-	</header>
-	<!-- /Header -->
-	
-	<main>
-		<div id="results">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6">
-						<h4><strong>Showing 10</strong> of 140 results</h4>
-					</div>
-					<div class="col-md-6">
-						<div class="search_bar_list">
-							<input type="text" class="form-control" placeholder="Ej. Nombre, Especialización ....">
-							<input type="submit" value="Buscar">
-						</div>
-					</div>
-				</div>
-				<!-- /row -->
-			</div>
-			<!-- /container -->
-		</div>
-		<!-- /results -->
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-6">
+            <div id="logo_home">
+              <h1>
+                <a href="index.html" title="PSYCHOBOOKING">PSYCHOBOOKING</a>
+              </h1>
+            </div>
+          </div>
+          <nav class="col-lg-9 col-6">
+            <a
+              class="cmn-toggle-switch cmn-toggle-switch__htx open_close"
+              href="#0"
+              ><span>Menu mobile</span></a
+            >
+            <ul id="top_access">
+              <li>
+                <a href="login.html"><i class="pe-7s-user"></i></a>
+              </li>
+              <li>
+                <a href="register.html"><i class="pe-7s-add-user"></i></a>
+              </li>
+            </ul>
+            <div class="main-menu">
+              <ul>
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="blog-1.html">Noticias</a></li>
+                <li><a href="register-doctor.html">Registrar Psicólogo</a></li>
+                <li><a href="about.html">Sobre nosotros</a></li>
+                <li><a href="contacts.html">Contactenos</a></li>
+                <li><a href="faq.html">Faq page</a></li>
+              </ul>
+            </div>
+            <!-- /main-menu -->
+          </nav>
+        </div>
+      </div>
+      <!-- /container -->
+    </header>
+    <!-- /Header -->
 
-		<div class="filters_listing">
-			<div class="container">
-				<ul class="clearfix">
-					<li>
-						<h6>Tipo</h6>
-						<div class="switch-field">
-							<input type="radio" id="all" name="type_patient" value="all" checked>
-							<label for="all">Todos</label>
-							<input type="radio" id="doctors" name="type_patient" value="doctors">
-							<label for="doctors">Piscólogos</label>
-							<input type="radio" id="clinics" name="type_patient" value="clinics">
-							<label for="clinics">Lugares</label>
-						</div>
-					</li>
-					<li>
-						<h6>Layout</h6>
-						<div class="layout_view">
-							<a href="grid-list.html"><i class="icon-th"></i></a>
-							<a href="#0" class="active"><i class="icon-th-list"></i></a>
-							<a href="list-map.html"><i class="icon-map-1"></i></a>
-						</div>
-					</li>
-					<li>
-						<h6>Ordenar por</h6>
-						<select name="orderby" class="selectbox">
-						<option value="Closest">Cercanos</option>
-						<option value="Best rated">Mejor puntuados</option>
-						</select>
-					</li>
-				</ul>
-			</div>
-			<!-- /container -->
-		</div>
-		<!-- /filters -->
-		
-		<div class="container margin_60_35">
-			<div class="row">
-				<div class="col-lg-7">
+    <main>
+      <div id="results">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h4><strong>Showing 10</strong> of 140 results</h4>
+            </div>
+            <div class="col-md-6">
+              <div
+                class="search_bar_list"
+                data-step="2"
+                data-intro="Busca tu psicólogo por nombre"
+              >
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Ej. Nombre, Especialización ...."
+                  id="textSearch"
+                />
+                <input type="submit" value="Buscar" id="submit" />
+              </div>
+            </div>
+          </div>
+          <!-- /row -->
+        </div>
+        <!-- /container -->
+      </div>
+      <!-- /results -->
 
-					<div class="strip_list wow fadeIn">
-						<a href="#0" class="wish_bt"></a>
-						<figure>
-							<a href="detail-page-2.html"><img src="http://via.placeholder.com/565x565.jpg" alt=""></a>
-						</figure>
-						<small>Psicólogo</small>
-						<h3>Dr. Cornfield</h3>
-						<p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cuodo....</p>
-						<span class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></span>
-						<a href="badges.html" data-toggle="tooltip" data-placement="top" data-original-title="Badge Level" class="badge_list_1"><img src="img/badges/badge_1.svg" width="15" height="15" alt=""></a>
-						<ul>
-							<li><a href="#0" onclick="onHtmlClick('Piscólogos', 0)" class="btn_listing">Ver en el mapa</a></li>
-							<li><a href="https://www.google.com/maps/dir//Assistance+%E2%80%93+H%C3%B4pitaux+De+Paris,+3+Avenue+Victoria,+75004+Paris,+Francia/@48.8606548,2.3348734,14z/data=!4m15!1m6!3m5!1s0x0:0xa6a9af76b1e2d899!2sAssistance+%E2%80%93+H%C3%B4pitaux+De+Paris!8m2!3d48.8568376!4d2.3504305!4m7!1m0!1m5!1m1!1s0x47e67031f8c20147:0xa6a9af76b1e2d899!2m2!1d2.3504327!2d48.8568361" target="_blank">Directions</a></li>
-							<li><a href="detail-page-2.html">Agenda ahora</a></li>
-						</ul>
-					</div>
-					<!-- /strip_list -->
+      <div class="filters_listing">
+        <div class="container">
+          <ul class="clearfix">
+            <li>
+              <h6>Tipo</h6>
+              <div class="switch-field">
+                <input
+                  type="radio"
+                  id="all"
+                  name="type_patient"
+                  value="all"
+                  checked
+                />
+                <label for="all">Todos</label>
+                <input
+                  type="radio"
+                  id="doctors"
+                  name="type_patient"
+                  value="doctors"
+                />
+                <label for="doctors">Piscólogos</label>
+                <input
+                  type="radio"
+                  id="clinics"
+                  name="type_patient"
+                  value="clinics"
+                />
+                <label for="clinics">Lugares</label>
+              </div>
+            </li>
+            <li>
+              <h6>Layout</h6>
+              <div class="layout_view">
+                <a href="grid-list.html"><i class="icon-th"></i></a>
+                <a href="#0" class="active"><i class="icon-th-list"></i></a>
+                <a href="list-map.html"><i class="icon-map-1"></i></a>
+              </div>
+            </li>
+            <li>
+              <h6>Ordenar por</h6>
+              <select name="orderby" class="selectbox">
+                <option value="Closest">Cercanos</option>
+                <option value="Best rated">Mejor puntuados</option>
+              </select>
+            </li>
+          </ul>
+        </div>
+        <!-- /container -->
+      </div>
+      <!-- /filters -->
 
-					<div class="strip_list wow fadeIn">
-						<a href="#0" class="wish_bt"></a>
-						<figure>
-							<a href="detail-page-2.html"><img src="http://via.placeholder.com/565x565.jpg" alt=""></a>
-						</figure>
-						<small>Psicólogo</small>
-						<h3>Dr. Shoemaker</h3>
-						<p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cuodo....</p>
-						<span class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></span>
-						<a href="badges.html" data-toggle="tooltip" data-placement="top" data-original-title="Badge Level" class="badge_list_1"><img src="img/badges/badge_2.svg" width="15" height="15" alt=""></a>
-						<ul>
-							<li><a href="#0" onclick="onHtmlClick('Piscólogos', 1)" class="btn_listing">Ver en el mapa</a></li>
-							<li><a href="https://www.google.com/maps/dir//Assistance+%E2%80%93+H%C3%B4pitaux+De+Paris,+3+Avenue+Victoria,+75004+Paris,+Francia/@48.8606548,2.3348734,14z/data=!4m15!1m6!3m5!1s0x0:0xa6a9af76b1e2d899!2sAssistance+%E2%80%93+H%C3%B4pitaux+De+Paris!8m2!3d48.8568376!4d2.3504305!4m7!1m0!1m5!1m1!1s0x47e67031f8c20147:0xa6a9af76b1e2d899!2m2!1d2.3504327!2d48.8568361" target="_blank">Directions</a></li>
-							<li><a href="detail-page-2.html">Agenda ahora</a></li>
-						</ul>
-					</div>
-					<!-- /strip_list -->
+      <div class="container margin_60_35">
+        <div class="row">
+          <div
+            class="col-lg-7"
+            id="psicologos"
+            data-step="1"
+            data-intro="Aquí selecciona tu psicólogo"
+          >
+            <nav aria-label="" class="add_top_20">
+              <ul class="pagination pagination-sm">
+                <li class="page-item disabled">
+                  <a class="page-link" href="#" tabindex="-1">Previous</a>
+                </li>
+                <li class="page-item active">
+                  <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#">Siguiente</a>
+                </li>
+              </ul>
+            </nav>
+            <!-- /pagination -->
+          </div>
+          <!-- /col -->
 
-					<div class="strip_list wow fadeIn">
-						<a href="#0" class="wish_bt"></a>
-						<figure>
-							<a href="detail-page-2.html"><img src="http://via.placeholder.com/565x565.jpg" alt=""></a>
-						</figure>
-						<small>Psicólogo</small>
-						<h3>Dr. Lachinet</h3>
-						<p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cuodo....</p>
-						<span class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></span>
-						<a href="badges.html" data-toggle="tooltip" data-placement="top" data-original-title="Badge Level" class="badge_list_1"><img src="img/badges/badge_3.svg" width="15" height="15" alt=""></a>
-						<ul>
-							<li><a href="#0" onclick="onHtmlClick('Piscólogos', 2)" class="btn_listing">Ver en el mapa</a></li>
-							<li><a href="https://www.google.com/maps/dir//Assistance+%E2%80%93+H%C3%B4pitaux+De+Paris,+3+Avenue+Victoria,+75004+Paris,+Francia/@48.8606548,2.3348734,14z/data=!4m15!1m6!3m5!1s0x0:0xa6a9af76b1e2d899!2sAssistance+%E2%80%93+H%C3%B4pitaux+De+Paris!8m2!3d48.8568376!4d2.3504305!4m7!1m0!1m5!1m1!1s0x47e67031f8c20147:0xa6a9af76b1e2d899!2m2!1d2.3504327!2d48.8568361" target="_blank">Directions</a></li>
-							<li><a href="detail-page-2.html">Agenda ahora</a></li>
-						</ul>
-					</div>
-					<!-- /strip_list -->
+          <aside class="col-lg-5" id="sidebar">
+            <div id="map_listing" class="normal_list"></div>
+          </aside>
+          <!-- /aside -->
+        </div>
+        <!-- /row -->
+      </div>
+      <!-- /container -->
+    </main>
+    <!-- /main -->
 
-					<div class="strip_list wow fadeIn">
-						<a href="#0" class="wish_bt"></a>
-						<figure>
-							<a href="detail-page-2.html"><img src="http://via.placeholder.com/565x565.jpg" alt=""></a>
-						</figure>
-						<small>Psicólogo</small>
-						<h3>Dr. Rainwater</h3>
-						<p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cuodo....</p>
-						<span class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></span>
-						<a href="badges.html" data-toggle="tooltip" data-placement="top" data-original-title="Badge Level" class="badge_list_1"><img src="img/badges/badge_4.svg" width="15" height="15" alt=""></a>
-						<ul>
-							<li><a href="#0" onclick="onHtmlClick('Piscólogos', 1)" class="btn_listing">Ver en el mapa</a></li>
-							<li><a href="https://www.google.com/maps/dir//Assistance+%E2%80%93+H%C3%B4pitaux+De+Paris,+3+Avenue+Victoria,+75004+Paris,+Francia/@48.8606548,2.3348734,14z/data=!4m15!1m6!3m5!1s0x0:0xa6a9af76b1e2d899!2sAssistance+%E2%80%93+H%C3%B4pitaux+De+Paris!8m2!3d48.8568376!4d2.3504305!4m7!1m0!1m5!1m1!1s0x47e67031f8c20147:0xa6a9af76b1e2d899!2m2!1d2.3504327!2d48.8568361" target="_blank">Directions</a></li>
-							<li><a href="detail-page-2.html">Agenda ahora</a></li>
-						</ul>
-					</div>
-					<!-- /strip_list -->
+    <footer>
+      <div class="container margin_60_35">
+        <div class="row">
+          <div class="col-lg-4 col-md-12">
+            <p>
+              <a href="index.html" title="PSYCHOBOOKING">
+                <img
+                  src="img/logo.png"
+                  data-retina="true"
+                  alt=""
+                  width="163"
+                  height="36"
+                  class="img-fluid"
+                />
+              </a>
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <h5>Acerca de</h5>
+            <ul class="links">
+              <li><a href="blog-1.html">Noticias</a></li>
+              <li><a href="register-doctor.html">Registrar Psicólogo</a></li>
+              <li><a href="about.html">Sobre nosotros</a></li>
+              <li><a href="contacts.html">Contactenos</a></li>
+            </ul>
+          </div>
 
-					<div class="strip_list wow fadeIn">
-						<a href="#0" class="wish_bt"></a>
-						<figure>
-							<a href="detail-page-2.html"><img src="http://via.placeholder.com/565x565.jpg" alt=""></a>
-						</figure>
-						<small>Psicólogo</small>
-						<h3>Dr. Manzone</h3>
-						<p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cuodo....</p>
-						<span class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></span>
-						<a href="badges.html" data-toggle="tooltip" data-placement="top" data-original-title="Badge Level" class="badge_list_1"><img src="img/badges/badge_4.svg" width="15" height="15" alt=""></a>
-						<ul>
-							<li><a href="#0" onclick="onHtmlClick('Piscólogos', 1)" class="btn_listing">Ver en el mapa</a></li>
-							<li><a href="https://www.google.com/maps/dir//Assistance+%E2%80%93+H%C3%B4pitaux+De+Paris,+3+Avenue+Victoria,+75004+Paris,+Francia/@48.8606548,2.3348734,14z/data=!4m15!1m6!3m5!1s0x0:0xa6a9af76b1e2d899!2sAssistance+%E2%80%93+H%C3%B4pitaux+De+Paris!8m2!3d48.8568376!4d2.3504305!4m7!1m0!1m5!1m1!1s0x47e67031f8c20147:0xa6a9af76b1e2d899!2m2!1d2.3504327!2d48.8568361" target="_blank">Directions</a></li>
-							<li><a href="detail-page-2.html">Agenda ahora</a></li>
-						</ul>
-					</div>
-					<!-- /strip_list -->
-					
-					<nav aria-label="" class="add_top_20">
-						<ul class="pagination pagination-sm">
-							<li class="page-item disabled">
-								<a class="page-link" href="#" tabindex="-1">Previous</a>
-							</li>
-							<li class="page-item active"><a class="page-link" href="#">1</a></li>
-							<li class="page-item"><a class="page-link" href="#">2</a></li>
-							<li class="page-item"><a class="page-link" href="#">3</a></li>
-							<li class="page-item">
-								<a class="page-link" href="#">Siguiente</a>
-							</li>
-						</ul>
-					</nav>
-					<!-- /pagination -->
-				</div>
-				<!-- /col -->
-				
-				<aside class="col-lg-5" id="sidebar">
-					<div id="map_listing" class="normal_list">
-					</div>
-				</aside>
-				<!-- /aside -->
-				
-			</div>
-			<!-- /row -->
-		</div>
-		<!-- /container -->
-	</main>
-	<!-- /main -->
-	
-	<footer>
-		<div class="container margin_60_35">
-			<div class="row">
-				<div class="col-lg-4 col-md-12">
-					<p>
-						<a href="index.html" title="PSYCHOBOOKING">
-							<img src="img/logo.png" data-retina="true" alt="" width="163" height="36" class="img-fluid">
-						</a>
-					</p>
-				</div>
-				<div class="col-lg-4 col-md-4">
-					<h5>Acerca de</h5>
-					<ul class="links">
-						<li><a href="blog-1.html">Noticias</a></li>
-						<li><a href="register-doctor.html">Registrar Psicólogo</a></li>
-						<li><a href="about.html">Sobre nosotros</a></li>
-						<li><a href="contacts.html">Contactenos</a></li>
-					</ul>
-				</div>
-				
-				<div class="col-lg-4 col-md-4">
-					<h5>Contact with Us</h5>
-					<ul class="contacts">
-						<li><a href="tel://61280932400"><i class="icon_mobile"></i> + 61 23 8093 3400</a></li>
-						<li><a href="mailto:info@PSYCHOBOOKING.com"><i class="icon_mail_alt"></i> help@PSYCHOBOOKING.com</a></li>
-					</ul>
-					<div class="follow_us">
-						<h5>Follow us</h5>
-						<ul>
-							<li><a href="#0"><i class="social_facebook"></i></a></li>
-							<li><a href="#0"><i class="social_twitter"></i></a></li>
-							<li><a href="#0"><i class="social_linkedin"></i></a></li>
-							<li><a href="#0"><i class="social_instagram"></i></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<!--/row-->
-			<hr>
-			<div class="row">
-				<div class="col-md-8">
-					<ul id="additional_links">
-						<li><a href="#0">Términos y Condiciones</a></li>
-						<li><a href="#0">Privacidad</a></li>
-					</ul>
-				</div>
-				<div class="col-md-4">
-					<div id="copy">© 2017 PSYCHOBOOKING</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<!--/footer-->
+          <div class="col-lg-4 col-md-4">
+            <h5>Contact with Us</h5>
+            <ul class="contacts">
+              <li>
+                <a href="tel://61280932400"
+                  ><i class="icon_mobile"></i> + 61 23 8093 3400</a
+                >
+              </li>
+              <li>
+                <a href="mailto:info@PSYCHOBOOKING.com"
+                  ><i class="icon_mail_alt"></i> help@PSYCHOBOOKING.com</a
+                >
+              </li>
+            </ul>
+            <div class="follow_us">
+              <h5>Follow us</h5>
+              <ul>
+                <li>
+                  <a href="#0"><i class="social_facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#0"><i class="social_twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#0"><i class="social_linkedin"></i></a>
+                </li>
+                <li>
+                  <a href="#0"><i class="social_instagram"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!--/row-->
+        <hr />
+        <div class="row">
+          <div class="col-md-8">
+            <ul id="additional_links">
+              <li><a href="#0">Términos y Condiciones</a></li>
+              <li><a href="#0">Privacidad</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <div id="copy">© 2017 PSYCHOBOOKING</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--/footer-->
 
-	<div id="toTop"></div>
-	<!-- Back to top button -->
+    <div id="toTop"></div>
+    <!-- Back to top button -->
 
-	<!-- COMMON SCRIPTS -->
-	<script src="js/jquery-2.2.4.min.js"></script>
-	<script src="js/common_scripts.min.js"></script>
-	<script src="js/functions.js"></script>
-	
-	<!-- SPECIFIC SCRIPTS -->
-	<script src="http://maps.googleapis.com/maps/api/js"></script>
-	<script src="js/markerclusterer.js"></script>
+    <!-- COMMON SCRIPTS -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/common_scripts.min.js"></script>
+    <script src="js/functions.js"></script>
+
+    <!-- SPECIFIC SCRIPTS -->
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script src="js/markerclusterer.js"></script>
     <script src="js/map_listing.js"></script>
     <script src="js/infobox.js"></script>
+    <script src="../introjs/intro.js"></script>
 
-</body>
+    <script src="js/cargarPsicologos.js"></script>
+  </body>
 </html>
