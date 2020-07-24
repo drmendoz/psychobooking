@@ -86,7 +86,7 @@ const filterResults = () => {
     for (let r of resultados) {
       const psicologo = r.getElementsByClassName("nombrePsicologo")[0];
       r.setAttribute("class", r.getAttribute("class") + " d-none");
-      if (psicologo.textContent.includes(textSearch)) {
+      if (psicologo.textContent.toUpperCase().includes(textSearch.toUpperCase())) {
         r.classList.remove("d-none");
       }
     }
