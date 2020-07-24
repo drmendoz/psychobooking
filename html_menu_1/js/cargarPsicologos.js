@@ -1,11 +1,11 @@
 const loadPsicologos = () => {
-  fetch("../data/psicologos.json")
-    .then((resultado) => resultado.json())
-    .then((array) => {
-      const psicologos = document.getElementById("psicologos");
-      let cont = 0;
-      for (let obj of array) {
-        const template = `<div class="strip_list wow fadeIn psicologo">
+        fetch("data/psicologos.json")
+            .then((resultado) => resultado.json())
+            .then((array) => {
+                    const psicologos = document.getElementById("psicologos");
+                    let cont = 0;
+                    for (let obj of array) {
+                        const template = `<div class="strip_list wow fadeIn psicologo">
             <a href="#0" class="wish_bt"></a>
             <figure>
               <a href="detail-page-2.html">
